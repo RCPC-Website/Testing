@@ -1,0 +1,21 @@
+node_modules folder are thrid party libraries that are install; usually never touched
+public folder; where public assets belong (e.g. images, video files,)
+src folder; where the source code of our application are
+
+App.tsx         - the application or app component
+index.html      - basic HTML file that has the id of root and a script that links main.tsx 
+                to index.html (this is the entry point of our application).
+package.json    - information about the project
+tsconfig.json
+jsconfig.json   - compiler settings
+
+To create new component, create an app ending in tsx or jsx in src
+We use function components rather than class components
+Using PascalCasing
+
+Router webpages - depending on the path, elements displayed on page will change
+
+creating a react app is 
+npx create-react-app <appname>      Sets up environment
+npm start                           Sets up server
+npm run build                       Creates a build to deploy
