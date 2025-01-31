@@ -19,3 +19,13 @@ creating a react app is
 npx create-react-app <appname>      Sets up environment
 npm start                           Sets up server
 npm run build                       Creates a build to deploy
+
+Backend
+npm init -y                         creates Package.json, added type: node_modules
+npm i express nodemon               addes node to project
+    "start": "node index.js",       added this in scripts
+    "dev": "nodemon index.js"
+create an index.js
+
+npm run dev                         start server
+npm i mongoose                      install mongodb
